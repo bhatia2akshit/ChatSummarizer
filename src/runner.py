@@ -4,7 +4,7 @@ from groq import Groq
 from conversation_summarizeer import ConvoSummarizer
 
 
-key = "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"
+key = "<>"
 client = Groq(api_key=key)
 
 text_file = Path("/Users/akshitbhatia/Downloads/_chat 6.txt")
